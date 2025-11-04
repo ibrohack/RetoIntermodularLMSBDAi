@@ -1,0 +1,232 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #D4AF37;
+  --color-background-light: #F5F5DC;
+  --color-background-dark: #2E4636;
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Lato', sans-serif;
+  --radius-default: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
+
+/* Modo oscuro */
+html.dark body {
+  background-color: var(--color-background-dark);
+  color: #F5F5DC;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background-light);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2.5rem;
+  background-color: rgba(46, 70, 54, 0.8);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.5);
+  color: white;
+}
+
+header h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+nav a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--color-primary);
+}
+
+/* Main */
+main {
+  flex: 1;
+}
+
+.hero {
+  position: relative;
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(46, 70, 54, 0.5), rgba(46, 70, 54, 0.8)), url("images/middle_earth_map.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #e7e7e7;
+  line-height: 1.6;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Botón */
+button.explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  padding: 0 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-background-dark);
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 480px;
+  min-width: 84px;
+  overflow: hidden;
+}
+
+button.explore:hover {
+  background-color: #facc15;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-background-dark);
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+  color: var(--color-background-light);
+}
+
+footer a {
+  color: var(--color-background-light);
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: var(--color-primary);
+}
+
+footer svg,
+footer .material-symbols-outlined {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Pseudoclases */
+nav a:hover,
+footer a:hover {
+  color: var(--color-primary);
+}
+
+button.explore:hover {
+  background-color: #facc15;
+}
+
+/* Responsive: md:flex para navegación */
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Responsive: md:hidden para botón de menú */
+@media (min-width: 768px) {
+  button.menu-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    display: none;
+  }
+
+  button.menu-toggle {
+    display: block;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+  }
+}
+
+/* Utilidades convertidas de Tailwind */
+.text-shadow-lg {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-md {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.max-w-3xl {
+  max-width: 768px;
+}
