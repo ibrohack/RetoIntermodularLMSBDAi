@@ -1,0 +1,28 @@
+"FilmId": "1"
+"Title": "The Lord of the Rings: The Fellowship of the Ring"
+"ReleaseDate": "2001"
+"Description": "In Middle-earth, the Dark Lord Sauron forged the Great Rings of Power and created one with the power to enslave all of Middle-earth. Frodo Baggins is a hobbit whom his uncle Bilbo entrusts with the powerful One Ring and the mission to destroy it. Accompanied by his friends, Frodo embarks on a journey to Mordor, the only place where the ring can be destroyed. However, Sauron orders the group to be pursued in order to recover the ring and destroy Middle-earth."
+"Duration": "178 minutes"
+"Trailer": "https://youtu.be/_nZdmwHrcnw?si=xUMhE9GVv77TEiQM"
+"Budget": "	$93 million"
+"BoxOffice": "$887.8 million"
+
+
+"FilmId": "2"
+"Title": "The Lord of the Rings: The Two Towers"
+"ReleaseDate": "2002"
+"Description": "The hobbits Frodo and Sam discover that Gollum is following them. The creature promises to guide them to the gates of Mordor if they then set him free. Aragorn, the elf Legolas and Gimli the dwarf arrive in the kingdom of Rohan and discover that King Theoden is under Saruman's spell. The traitor wants control of the kingdom to continue his plans in Mordor, awaiting war in Middle-earth."
+"Duration":
+"Trailer":
+"Budget":
+"BoxOffice:
+
+
+"FilmId": "3"
+"Title":
+"ReleaseDate":
+"Description":
+"Duration":
+"Trailer":
+"Budget":
+"BoxOffice:
