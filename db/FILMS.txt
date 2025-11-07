@@ -12,10 +12,10 @@
 "Title": "The Lord of the Rings: The Two Towers"
 "ReleaseDate": "2002"
 "Description": "The hobbits Frodo and Sam discover that Gollum is following them. The creature promises to guide them to the gates of Mordor if they then set him free. Aragorn, the elf Legolas and Gimli the dwarf arrive in the kingdom of Rohan and discover that King Theoden is under Saruman's spell. The traitor wants control of the kingdom to continue his plans in Mordor, awaiting war in Middle-earth."
-"Duration":
-"Trailer":
-"Budget":
-"BoxOffice:
+"Duration": "179 minutes"
+"Trailer": "https://youtu.be/nuTU5XcZTLA?si=iHrcTWZI9lna5cuJ"
+"Budget": "$94 million"
+"BoxOffice: "$937.9 million"
 
 
 "FilmId": "3"
