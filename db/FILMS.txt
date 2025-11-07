@@ -19,10 +19,10 @@
 
 
 "FilmId": "3"
-"Title":
-"ReleaseDate":
-"Description":
-"Duration":
-"Trailer":
-"Budget":
-"BoxOffice:
+"Title": "The Lord of the Rings: The Return of the King"
+"ReleaseDate":"2003"
+"Description": "The battle for Middle Earth has begun. Saruman's forces have been destroyed and for the first time there seems to be a glimmer of hope. However, Sauron's power is growing and his attention is focused on Gondor, the last stronghold of men, whose heir is Aragorn. Meanwhile, Frodo and Sam, guided by Gollum, continue their dangerous mission through Mordor to destroy the ring."
+"Duration": "201 minutes"
+"Trailer": "https://youtu.be/zckJCxYxn1g?si=Ml9mnC8OtHT8wa7t"
+"Budget": "$94 million"
+"BoxOffice: "$1.138 billion"
