@@ -1,7 +1,7 @@
 1. Implementar flexbox para las paginas html.
 2. Introducir las imagenes en su carpeta
 3. Añadir el video de youtube / plataforma de streaming; no en local.
-4. Añadir los audios en el saundtrack
+4. Añadir los audios en el soundtrack
 5. Añadir la musica de fondo.
 6. añadir algun gif / animacion en un hover
 7. Hacer un mapa de imagenes.
