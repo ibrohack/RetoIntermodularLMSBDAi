@@ -6,6 +6,8 @@
 "Trailer": "https://youtu.be/_nZdmwHrcnw?si=xUMhE9GVv77TEiQM"
 "Budget": "	$93 million"
 "BoxOffice": "$887.8 million"
+"DirectorId": "1"
+"MainSongId": "1"
 
 
 "FilmId": "2"
@@ -16,6 +18,8 @@
 "Trailer": "https://youtu.be/nuTU5XcZTLA?si=iHrcTWZI9lna5cuJ"
 "Budget": "$94 million"
 "BoxOffice: "$937.9 million"
+"DirectorId": "1"
+"MainSongId": "1"
 
 
 "FilmId": "3"
@@ -26,3 +30,5 @@
 "Trailer": "https://youtu.be/zckJCxYxn1g?si=Ml9mnC8OtHT8wa7t"
 "Budget": "$94 million"
 "BoxOffice: "$1.138 billion"
+"DirectorId": "1"
+"MainSongId": "1"
