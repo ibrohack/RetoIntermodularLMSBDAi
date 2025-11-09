@@ -100,12 +100,6 @@
 "Description": "Son of Gondor and proud warrior, Boromir fights to protect his land and his people. Brave and passionate, his heart is torn between duty and the temptation of power. In every battle he shows strength and courage, reminding us that even the greatest heroes have their shadows."
 
 
-"CharacterId": "18"
-"Name": "Tom Bombadil"
-"Race": "His true nature is a mystery!"
-"Description": "In the forests of Old Earth lives Tom Bombadil, a cheerful and mysterious spirit who laughs with the wind and sings with the rivers. Nothing binds him, nothing disturbs him: not even the darkest evil can touch him. With a light step and infectious laughter, he walks among nature, reminding us that there are forces in Middle-earth that transcend the history of men and heroes."
-
-
 "CharacterId": "19"
 "Name": "Meriadoc “Merry” Brandigamo"
 "Race": "Hobbit"
@@ -160,22 +154,10 @@
 "Description": "Barbol, the wisest of the Ents, walks among the ancient forests. Slow to speak but firm in action, he protects the trees and the life that dwells within them. His voice booms like ancient trunks and his patience is infinite, reminding us that nature holds memory and strength beyond human comprehension."
 
 
-"CharacterId": "28"
-"Name": "Elendil"
-"Race": "Human"
-"Description": "King of Arnor and Gondor, Elendil walks with nobility and steadfastness upon Middle-earth. Bearer of hope for free men, his sword and counsel guide his people against darkness. Even in the most desperate battle, his spirit remains unbroken, remembering that heritage and duty are lights that never go out."
-
-
 "CharacterId": "29"
 "Name": "Denethor II"
 "Race": "Human"
 "Description": "In Minas Tirith, Denethor II rules with pride and severity, concerned for the fate of Gondor. His mind, burdened with wisdom and sorrow, is torn between hope and despair. Although he seeks to protect his people, sometimes his fear blinds him, reminding us that even the greatest leaders can succumb to the shadow of fear."
-
-
-"CharacterId": "30"
-"Name": "Glorfindel"
-"Race": "Elf"
-"Description": "He shines in Rivendell as Glorfindel, the elf of light who walks among shadows and fire. Brave and noble, his sword is justice and his presence a beacon of hope. Since ancient times, he has protected the righteous, reminding them that even in the deepest darkness, the eternal light of the elves never dies."
 
 
 "CharacterId": "31"
@@ -184,28 +166,10 @@
 "Description": "Among the forests of Lothlórien walks Celeborn, wise and serene lord of the elves. His gaze observes time and nature with patience, and his counsel guides those who seek light amid the shadows. Steadfast and just, he protects his land alongside Galadriel, remembering that harmony and nobility are the true strength of the elves."
 
 
-"CharacterId": "32"
-"Name": "Anárion"
-"Race": "Human"
-"Description": "Son of Elendil and brother of Isildur, Anárion walks with nobility and courage throughout Middle-earth. As King of Gondor, he strives to protect his people and keep hope alive in the face of the spreading shadow. His spirit reflects duty and strength, reminding us that true greatness comes from a commitment to justice and the land one rules."
-
-
 "CharacterId": "33"
 "Name": "The Mouth of Sauron"
 "Race": "Human"
 "Description": "Bearer of Mordor's poisonous words, the Mouth of Sauron walks with a sharp tongue and a sinister gaze. Messenger of the Dark Lord, his presence inspires fear more than any sword. Between threats and deceit, remember that darkness is imposed not only with force, but also with words that twist the truth."
-
-
-"CharacterId": "34"
-"Name": "Celebrían"
-"Race": "Elf"
-"Description": "Among the forests of Rivendell walks Celebrían, an elf of great beauty and serenity. Daughter of Galadriel and Celeborn, her presence radiates peace and nobility, and her heart holds love and wisdom. Although she faces shadows and dangers, her spirit remains steadfast, remembering that the light of the elves endures even in the darkest of times."
-
-
-"CharacterId": "35"
-"Name": "Eorl"
-"Race": "Human"
-"Description": "Eorl , first king of Rohan, rides with a brave heart and a steady sword, leading his people to new lands and uncertain destinies. His warrior spirit and loyalty to his people make him a respected leader, reminding us that courage and determination can forge nations and legacies that endure through time."
 
 
 "CharacterId": "36"
@@ -226,34 +190,10 @@
 "Description": "Heir to Rohan and son of Théoden, Théodred rides with nobility and courage across the plains of his land. Young and determined, he protects his people with loyalty and courage, showing that the strength of a leader also comes from the heart and determination. His spirit embodies the hope and duty of the Rohirrim in the face of the looming shadow."
 
 
-"CharacterId": "39"
-"Name": "Fredegar “Fatty” Bolger"
-"Race": "Hobbit"
-"Description": "Fredegar Bolger, a prudent hobbit and loyal friend of Frodo, walks among the narrow streets of the Shire. Although he does not seek adventure, his wit and discretion make him a silent ally in times of danger. With careful steps and a faithful heart, he proves that even the quietest among us can hold onto hope from the safety of their homes."
-
-
-"CharacterId": "40"
-"Name": "Old Man Willow"
-"Race": "Sentient tree spirit"
-"Description": ""
-
-
-"CharacterId": "41"
-"Name": "Elrohir"
-"Race": "Peredhel (Half elf)"
-"Description": "Son of Elrond and brother of Elladan, Elrohir rides through the forests of Middle-earth with agility and courage. An elven warrior with a steady gaze and noble spirit, he protects his people and fights darkness with determination. His presence reminds us that the light of the elves never fades, even in the darkest of times."
-
-
 "CharacterId": "42"
 "Name": "Forlong"
 "Race": "Human"
 "Description": "A brave leader of the men of Lossarnach, Forlong stands tall with pride and determination in the face of the shadow threatening Gondor. With sword in hand and spirit unbroken, he guides his troops with courage, remembering that even in times of despair, loyalty and valour can sustain the hope of a people."
-
-
-"CharacterId": "43"
-"Name": "Fengel"
-"Race": "Human"
-"Description": "King of Rohan before Théoden, Fengel rules with a certain rigidity and concern for his people. Although his time is marked by routine and the affairs of the kingdom, his descendants and legacy pave the way for more courageous leaders. His figure reminds us that even the least heroic kings are part of the thread of Middle-earth's destiny."
 
 
 "CharacterId": "44"
@@ -262,7 +202,13 @@
 "Description": "A young resident of Minas Tirith and grandson of Beregond, Bergil walks the streets of the White City with curiosity and energy. Brave and kind-hearted, he observes the events of the war with attentive eyes, showing that even the youngest can inspire hope and learning in dark times."
 
 
-"CharacterId": "45"
-"Name": "Folcwine"
-"Race": "Human"
-"Description": "Hero and leader of the men of Gondor, Folcwine walks with nobility and determination, guiding his people with wisdom and courage. His loyalty and sense of duty reflect the strength of free men, reminding us that even in times of darkness, determination and justice can prevail."
+LOS QUE ME FALTAN POR HACER:
+Isildur — aparece en el prólogo y en recuerdos.
+
+Haldir — el elfo de Lothlórien (muere en el Abismo de Helm).
+
+King of the Dead (Rey de los Muertos) — El Retorno del Rey.
+
+Grishnákh y Uglúk — líderes orcos (si piensas incluir enemigos).
+
+Lurtz — uruk-hai que mata a Boromir (La Comunidad del Anillo).
