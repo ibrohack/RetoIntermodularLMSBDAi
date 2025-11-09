@@ -1,34 +1,38 @@
-"FilmId": "1"
-"Title": "The Lord of the Rings: The Fellowship of the Ring"
-"ReleaseDate": "2001"
-"Description": "In Middle-earth, the Dark Lord Sauron forged the Great Rings of Power and created one with the power to enslave all of Middle-earth. Frodo Baggins is a hobbit whom his uncle Bilbo entrusts with the powerful One Ring and the mission to destroy it. Accompanied by his friends, Frodo embarks on a journey to Mordor, the only place where the ring can be destroyed. However, Sauron orders the group to be pursued in order to recover the ring and destroy Middle-earth."
-"Duration": "178 minutes"
-"Trailer": "https://youtu.be/_nZdmwHrcnw?si=xUMhE9GVv77TEiQM"
-"Budget": "	$93 million"
-"BoxOffice": "$887.8 million"
-"DirectorId": "1"
-"MainSongId": "1"
-
-
-"FilmId": "2"
-"Title": "The Lord of the Rings: The Two Towers"
-"ReleaseDate": "2002"
-"Description": "The hobbits Frodo and Sam discover that Gollum is following them. The creature promises to guide them to the gates of Mordor if they then set him free. Aragorn, the elf Legolas and Gimli the dwarf arrive in the kingdom of Rohan and discover that King Theoden is under Saruman's spell. The traitor wants control of the kingdom to continue his plans in Mordor, awaiting war in Middle-earth."
-"Duration": "179 minutes"
-"Trailer": "https://youtu.be/nuTU5XcZTLA?si=iHrcTWZI9lna5cuJ"
-"Budget": "$94 million"
-"BoxOffice: "$937.9 million"
-"DirectorId": "1"
-"MainSongId": "1"
-
-
-"FilmId": "3"
-"Title": "The Lord of the Rings: The Return of the King"
-"ReleaseDate":"2003"
-"Description": "The battle for Middle Earth has begun. Saruman's forces have been destroyed and for the first time there seems to be a glimmer of hope. However, Sauron's power is growing and his attention is focused on Gondor, the last stronghold of men, whose heir is Aragorn. Meanwhile, Frodo and Sam, guided by Gollum, continue their dangerous mission through Mordor to destroy the ring."
-"Duration": "201 minutes"
-"Trailer": "https://youtu.be/zckJCxYxn1g?si=Ml9mnC8OtHT8wa7t"
-"Budget": "$94 million"
-"BoxOffice: "$1.138 billion"
-"DirectorId": "1"
-"MainSongId": "1"
+[
+  {
+    "FilmId": "1",
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "ReleaseDate": "2001",
+    "Description": "In Middle-earth, the Dark Lord Sauron forged the Great Rings of Power and created one with the power to enslave all of Middle-earth. Frodo Baggins is a hobbit whom his uncle Bilbo entrusts with the powerful One Ring and the mission to destroy it. Accompanied by his friends, Frodo embarks on a journey to Mordor, the only place where the ring can be destroyed. However, Sauron orders the group to be pursued in order to recover the ring and destroy Middle-earth.",
+    "Duration": "178 minutes",
+    "Trailer": "https://youtu.be/_nZdmwHrcnw?si=xUMhE9GVv77TEiQM",
+    "Budget": "$93 million",
+    "BoxOffice": "$887.8 million",
+    "DirectorId": "1",
+    "MainSongId": "1"
+  },
+  {
+    "FilmId": "2",
+    "Title": "The Lord of the Rings: The Two Towers",
+    "ReleaseDate": "2002",
+    "Description": "The hobbits Frodo and Sam discover that Gollum is following them. The creature promises to guide them to the gates of Mordor if they then set him free. Aragorn, the elf Legolas and Gimli the dwarf arrive in the kingdom of Rohan and discover that King Theoden is under Saruman's spell. The traitor wants control of the kingdom to continue his plans in Mordor, awaiting war in Middle-earth.",
+    "Duration": "179 minutes",
+    "Trailer": "https://youtu.be/nuTU5XcZTLA?si=iHrcTWZI9lna5cuJ",
+    "Budget": "$94 million",
+    "BoxOffice": "$937.9 million",
+    "DirectorId": "1",
+    "MainSongId": "1"
+  },
+  {
+    "FilmId": "3",
+    "Title": "The Lord of the Rings: The Return of the King",
+    "ReleaseDate": "2003",
+    "Description": "The battle for Middle Earth has begun. Saruman's forces have been destroyed and for the first time there seems to be a glimmer of hope. However, Sauron's power is growing and his attention is focused on Gondor, the last stronghold of men, whose heir is Aragorn. Meanwhile, Frodo and Sam, guided by Gollum, continue their dangerous mission through Mordor to destroy the ring.",
+    "Duration": "201 minutes",
+    "Trailer": "https://youtu.be/zckJCxYxn1g?si=Ml9mnC8OtHT8wa7t",
+    "Budget": "$94 million",
+    "BoxOffice": "$1.138 billion",
+    "DirectorId": "1",
+    "MainSongId": "1"
+  }
+]
