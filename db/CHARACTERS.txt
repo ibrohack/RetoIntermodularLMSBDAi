@@ -239,61 +239,30 @@
 
 
 "CharacterId": "41"
-"Name": ""
-"Race": ""
-"Description": ""
+"Name": "Elrohir"
+"Race": "Peredhel (Half elf)"
+"Description": "Son of Elrond and brother of Elladan, Elrohir rides through the forests of Middle-earth with agility and courage. An elven warrior with a steady gaze and noble spirit, he protects his people and fights darkness with determination. His presence reminds us that the light of the elves never fades, even in the darkest of times."
 
 
 "CharacterId": "42"
-"Name": ""
-"Race": ""
-"Description": ""
+"Name": "Forlong"
+"Race": "Human"
+"Description": "A brave leader of the men of Lossarnach, Forlong stands tall with pride and determination in the face of the shadow threatening Gondor. With sword in hand and spirit unbroken, he guides his troops with courage, remembering that even in times of despair, loyalty and valour can sustain the hope of a people."
 
 
 "CharacterId": "43"
-"Name": ""
-"Race": ""
-"Description": ""
+"Name": "Fengel"
+"Race": "Human"
+"Description": "King of Rohan before Théoden, Fengel rules with a certain rigidity and concern for his people. Although his time is marked by routine and the affairs of the kingdom, his descendants and legacy pave the way for more courageous leaders. His figure reminds us that even the least heroic kings are part of the thread of Middle-earth's destiny."
 
 
 "CharacterId": "44"
-"Name": ""
-"Race": ""
-"Description": ""
+"Name": "Bergil"
+"Race": "Human"
+"Description": "A young resident of Minas Tirith and grandson of Beregond, Bergil walks the streets of the White City with curiosity and energy. Brave and kind-hearted, he observes the events of the war with attentive eyes, showing that even the youngest can inspire hope and learning in dark times."
 
 
 "CharacterId": "45"
-"Name": ""
-"Race": ""
-"Description": ""
-
-
-"CharacterId": "46"
-"Name": ""
-"Race": ""
-"Description": ""
-
-
-"CharacterId": "47"
-"Name": ""
-"Race": ""
-"Description": ""
-
-
-"CharacterId": "48"
-"Name": ""
-"Race": ""
-"Description": ""
-
-
-"CharacterId": "49"
-"Name": ""
-"Race": ""
-"Description": ""
-
-
-"CharacterId": "30"
-"Name": ""
-"Race": ""
-"Description": ""
-
+"Name": "Folcwine"
+"Race": "Human"
+"Description": "Hero and leader of the men of Gondor, Folcwine walks with nobility and determination, guiding his people with wisdom and courage. His loyalty and sense of duty reflect the strength of free men, reminding us that even in times of darkness, determination and justice can prevail."
