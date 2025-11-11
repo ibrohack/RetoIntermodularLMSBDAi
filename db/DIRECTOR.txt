@@ -1,4 +1,0 @@
-"DirectorId": "1"
-"FirstName": "Peter"
-"LastName": "Jackson"
-"Birthdate": "31 de octubre de 1961"
