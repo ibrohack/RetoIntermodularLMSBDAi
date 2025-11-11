@@ -1,0 +1,200 @@
+[
+  {
+    "CharacterId": "1",
+    "Name": "Frodo Bolsón",
+    "Race": "Hobbit",
+    "Description": "Deep in the Shire lives Frodo Baggins, a hobbit with a pure heart and a curious gaze. Destiny calls him beyond his green hills, towards a journey that will test his courage and his soul. With a ring in his pocket and the weight of the world on his shoulders, Frodo takes his first step into the unknown."
+  },
+  {
+    "CharacterId": "2",
+    "Name": "Gandalf",
+    "Race": "Maiar",
+    "Description": "Between shadows and stars walks Gandalf the Grey, a tireless traveller who holds more wisdom than he lets on. His staff guides kings and hobbits alike, and his voice ignites hope where all seems lost. In every glance, the ancient fire of the Valar burns, reminding us that even the smallest spark can light the way against the darkness."
+  },
+  {
+    "CharacterId": "3",
+    "Name": "Aragorn",
+    "Race": "Dúnedain",
+    "Description": "Heir to kings and guardian of forgotten paths, Aragorn travels Middle-earth under many names. In his gaze, the nobility of Gondor and the loneliness of exile intersect. With sword in hand and duty in his soul, he protects his people without claiming glory, waiting for the moment when destiny calls him to be more than a ranger... to be king."
+  },
+  {
+    "CharacterId": "4",
+    "Name": "Sauron",
+    "Race": "Maiar",
+    "Description": "Deep within Mordor burns the unblinking eye of Sauron, the Dark Lord. His will commands armies, and his shadow stretches across all of Middle-earth. He has no human form or kindly face, only an unyielding desire: to subjugate all peoples under the weight of his ring and his eternal fear."
+  },
+  {
+    "CharacterId": "5",
+    "Name": "Gollum",
+    "Race": "Hobbit",
+    "Description": "Among damp caves and forgotten shadows, Gollum whispers, consumed by his obsession with the Ring he calls his \"treasure.\" Two voices battle for his mind: a faint spark of what he once was and the darkness that devours him. Guided by desire and deceit, he crawls between light and shadow, a prisoner of a destiny he cannot escape."
+  },
+  {
+    "CharacterId": "6",
+    "Name": "Legolas",
+    "Race": "Elf",
+    "Description": "Legolas moves among the trees of the elven forest, light as the wind and as accurate as an arrow that always finds its target. His eyes see beyond the visible and his footsteps barely touch the ground. With grace and stealth, he protects his friends and fights for the light, bringing the elegance and strength of the elves to every movement."
+  },
+  {
+    "CharacterId": "7",
+    "Name": "Galadriel",
+    "Race": "Elf",
+    "Description": "In the heart of Lothlórien shines Galadriel, lady of light and ancient wisdom. Her gaze pierces time and destiny, and her voice whispers secrets that few can understand. Guardian of hope, she walks between shadows and light, remembering that even in the deepest darkness, light always finds its way."
+  },
+  {
+    "CharacterId": "8",
+    "Name": "Arwen",
+    "Race": "Peredhel (Half elf)",
+    "Description": "Arwen walks among the mist and forests of Rivendell, her gaze serene and her heart brave. Daughter of kings, she chooses love over immortality, and her presence is a beacon of hope for those around her. With an elegant gait and a steadfast spirit, she lights the way for those who fight against the shadows."
+  },
+  {
+    "CharacterId": "9",
+    "Name": "Bilbo Bolsón",
+    "Race": "Hobbit",
+    "Description": "In the peaceful Shire, Bilbo Baggins lives among books, stories and small pleasures, but his heart yearns for adventure. When destiny calls, he leaves his home to face the unknown, proving that even the quietest hobbit can discover courage and magic beyond the limits of his doorstep."
+  },
+  {
+    "CharacterId": "10",
+    "Name": "Gimli",
+    "Race": "Dwarf",
+    "Description": "Between mountains and caves echoes the steady footsteps of Gimli, a dwarf warrior with a big heart and fiery temper. With axe in hand and unwavering loyalty, he defends his friends and honours his clan. Each blow he strikes is full of strength and courage, and each gesture is a reminder that even the smallest can have a huge spirit."
+  },
+  {
+    "CharacterId": "11",
+    "Name": "Balrog",
+    "Race": "Maiar",
+    "Description": "In the depths of Middle-earth burns the Balrog, a creature of fire and shadow that strikes terror into all who behold it. Its wings of darkness and whip of flame herald destruction, and its presence turns light into a distant memory. No one can ignore its power; even the bravest feel its fiery breath approaching."
+  },
+  {
+    "CharacterId": "12",
+    "Name": "Elrond",
+    "Race": "Peredhel (Half elf)",
+    "Description": "Elrond, lord of profound wisdom and gaze that contemplates the threads of destiny, dwells in Rivendell. Advisor to kings and protector of ancient secrets, he guides those who seek light in times of darkness. His calmness and silent strength inspire confidence, reminding us that patience and wisdom can change the course of history."
+  },
+  {
+    "CharacterId": "13",
+    "Name": "Peregrin “Pippin” Tuk",
+    "Race": "Hobbit",
+    "Description": "Amid laughter and mischief walks Pippin, a young hobbit with a curious heart and a cheerful spirit. Although he sometimes acts without thinking, his courage blossoms when it is most needed. With every step, he proves that even the smallest can face great dangers and leave an indelible mark on Middle-earth."
+  },
+  {
+    "CharacterId": "14",
+    "Name": "Éowyn",
+    "Race": "Human",
+    "Description": "Under the banners of Rohan rides Éowyn a warrior with an indomitable spirit and a brave heart. She dreams of glory and freedom, and although the world expects her to stay in her place, she faces the shadow with sword in hand. Her gaze burns with the determination of one who fights for her people and for justice, without fear of the fate that challenges her."
+  },
+  {
+    "CharacterId": "15",
+    "Name": "Saruman",
+    "Race": "Maiar",
+    "Description": "In the tower of Orthanc stands Saruman, the wise man who seeks power beyond the light. His words are persuasive, his presence imposing, but in his heart beats an ambition that distances him from goodness. A master of ancient arts, his downfall shows that even the wisest can be seduced by darkness."
+  },
+  {
+    "CharacterId": "16",
+    "Name": "Samsagaz “Sam” Gamyi",
+    "Race": "Hobbit",
+    "Description": "A faithful companion and steadfast friend, Sam walks alongside Frodo with a brave heart and hard-working hands. Although small in stature, his loyalty and courage are enormous, capable of sustaining hope when all seems lost. His every step demonstrates that true heroism is born of love and fidelity."
+  },
+  {
+    "CharacterId": "17",
+    "Name": "Boromir",
+    "Race": "Human",
+    "Description": "Son of Gondor and proud warrior, Boromir fights to protect his land and his people. Brave and passionate, his heart is torn between duty and the temptation of power. In every battle he shows strength and courage, reminding us that even the greatest heroes have their shadows."
+  },
+  {
+    "CharacterId": "18",
+    "Name": "Meriadoc “Merry” Brandigamo",
+    "Race": "Hobbit",
+    "Description": "Amidst jokes and adventures walks Merry, a hobbit with quick wit and a brave heart. Although life demands more of him than he expects, he proves that loyalty and cunning can change the course of great wars. With every step, his curious and determined spirit leaves its mark on Middle-earth."
+  },
+  {
+    "CharacterId": "19",
+    "Name": "Théoden",
+    "Race": "Human",
+    "Description": "King of Rohan, Théoden stands tall with nobility and strength upon the plains of his people. Though the shadow of despair has weakened him, his spirit is reborn with the call of duty. With sword in hand and courageous heart, he leads his warriors against the darkness, remembering that even in old age, courage can ignite hope."
+  },
+  {
+    "CharacterId": "20",
+    "Name": "Faramir",
+    "Race": "Human",
+    "Description": "Son of Gondor and brother of Boromir, Faramir walks with nobility and discernment. His heart is steadfast, his mind clear, and though the shadow of war surrounds him, he chooses the path of honour and justice. With quiet courage, he protects his land and those he loves, proving that true strength lies in wisdom and temperance."
+  },
+  {
+    "CharacterId": "21",
+    "Name": "Shelob",
+    "Race": "Giant spiders",
+    "Description": "In the dark depths of Cirith Ungol lurks Shelob, a creature of shadow and venom that inspires terror with every movement. Her many eyes glow in the gloom, and her deadly, sticky web traps those who dare to approach. Silent and patient, she waits in the darkness, remembering that the oldest evil needs no haste to devour."
+  },
+  {
+    "CharacterId": "22",
+    "Name": "Lord of the Nazgûl",
+    "Race": "Human",
+    "Description": "Shrouded in shadows and cloaked in terror, the Lord of the Nazgûl stalks those who bear the Ring. No light can dispel his presence, and his cold voice strikes fear into hearts. Faceless and with a will of steel, he leads his spectres on a relentless hunt, reminding them that darkness always seeks to reclaim what belongs to it."
+  },
+  {
+    "CharacterId": "23",
+    "Name": "Éomer",
+    "Race": "Human",
+    "Description": "Young and brave, Éomer rides at the head of the Rohirrim with sword in hand and heart set on purpose. Loyal to his people and steadfast in the face of injustice, his courage shines brightly in the midst of war. Each gallop he makes resounds like a call to hope, reminding us that strength and honour can emerge even in dark times."
+  },
+  {
+    "CharacterId": "24",
+    "Name": "Gríma",
+    "Race": "Human",
+    "Description": "Stealthy and cunning, Gríma slips into the court of Rohan with a poisonous tongue and a suspicious gaze. His words sow doubt, and his loyalty is a shadow, always serving Saruman's ambition. Amid whispers and betrayals, his presence reminds us that corruption can take many forms, even the quietest ones."
+  },
+  {
+    "CharacterId": "25",
+    "Name": "Barbol (Treebeard)",
+    "Race": "Ent",
+    "Description": "Barbol, the wisest of the Ents, walks among the ancient forests. Slow to speak but firm in action, he protects the trees and the life that dwells within them. His voice booms like ancient trunks and his patience is infinite, reminding us that nature holds memory and strength beyond human comprehension."
+  },
+  {
+    "CharacterId": "26",
+    "Name": "Haldir",
+    "Race": "Elf",
+    "Description": "Guardian of the borders of Lothlórien, Haldir watches with eyes as sharp as his arrows. Silent and steadfast, he protects the Golden Wood from the shadows that creep near. His loyalty to Galadriel and his people shines like starlight, and upon the walls of Helm’s Deep, his courage proves that even the calmest hearts can burn with valour."
+  },
+  {
+    "CharacterId": "27",
+    "Name": "Denethor II",
+    "Race": "Human",
+    "Description": "In Minas Tirith, Denethor II rules with pride and severity, concerned for the fate of Gondor. His mind, burdened with wisdom and sorrow, is torn between hope and despair. Although he seeks to protect his people, sometimes his fear blinds him, reminding us that even the greatest leaders can succumb to the shadow of fear."
+  },
+  {
+    "CharacterId": "28",
+    "Name": "Celeborn",
+    "Race": "Elf",
+    "Description": "Among the forests of Lothlórien walks Celeborn, wise and serene lord of the elves. His gaze observes time and nature with patience, and his counsel guides those who seek light amid the shadows. Steadfast and just, he protects his land alongside Galadriel, remembering that harmony and nobility are the true strength of the elves."
+  },
+  {
+    "CharacterId": "29",
+    "Name": "Grishnákh",
+    "Race": "Orc",
+    "Description": "Cunning and cruel, Grishnákh crawls from the dark pits of Mordor with greed in his eyes and venom in his words. Among orcs and uruk-hai, he slinks like a shadow, driven by his hunger for power and the whisper of the Ring. His every step reeks of treachery, and his twisted laughter echoes where mercy dares not dwell."
+  },
+  {
+    "CharacterId": "30",
+    "Name": "Uglúk",
+    "Race": "Orc",
+    "Description": "Born in the dark forges of Isengard, Uglúk leads the uruk-hai with brutal strength and unwavering discipline. Fierce and relentless, he obeys only the will of Saruman, cutting through foes with savage precision. In his roar lives the fury of the White Hand, and in his fall, the reminder that blind loyalty to darkness brings only ruin."
+  },
+  {
+    "CharacterId": "31",
+    "Name": "Gamling",
+    "Race": "Human",
+    "Description": "A loyal warrior of Rohan and captain of the Rohirrim, Gamling rides with courage and loyalty alongside his king. Always present in the heat of battle, he protects his people and follows orders with discipline and a brave heart. His presence serves as a reminder that even lesser-known heroes uphold the spirit of an entire kingdom."
+  },
+  {
+    "CharacterId": "32",
+    "Name": "Brego",
+    "Race": "Horse",
+    "Description": "A fierce and loyal steed of Rohan, Brego gallops with strength and nobility alongside the Rohirrim. His gaze reflects intelligence and courageous spirit, and in battle his steady stride inspires those who ride him. More than a horse, he is an inseparable companion and symbol of the strength and freedom of the plains of Rohan."
+  },
+  {
+    "CharacterId": "33",
+    "Name": "Théodred",
+    "Race": "Human",
+    "Description": "Heir to Rohan and son of Théoden, Théodred rides with nobility and courage across the plains of his land. Young and determined, he protects his people with loyalty and courage, showing that the strength of a leader also comes from the heart and determination. His spirit embodies the hope and duty of the Rohirrim in the face of the looming shadow."
+  }
+]

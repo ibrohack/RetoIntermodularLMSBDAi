@@ -1,0 +1,200 @@
+[
+  {
+    "ActorId": "1",
+    "FirstName": "Elijah",
+    "LastName": "Wood",
+    "Birthdate": "1981-01-28"
+  },
+  {
+    "ActorId": "2",
+    "FirstName": "Ian",
+    "LastName": "McKellen",
+    "Birthdate": "1939-05-25"
+  },
+  {
+    "ActorId": "3",
+    "FirstName": "Viggo",
+    "LastName": "Mortensen",
+    "Birthdate": "1958-10-20"
+  },
+  {
+    "ActorId": "4",
+    "FirstName": "Sala / Alan",
+    "LastName": "Baker (physical) / Howard (voice)",
+    "Birthdate": "1976-09-22 / 1937-08-05"
+  },
+  {
+    "ActorId": "5",
+    "FirstName": "Andy",
+    "LastName": "Serkis",
+    "Birthdate": "1964-04-20"
+  },
+  {
+    "ActorId": "6",
+    "FirstName": "Orlando",
+    "LastName": "Bloom",
+    "Birthdate": "1977-01-13"
+  },
+  {
+    "ActorId": "7",
+    "FirstName": "Cate",
+    "LastName": "Blanchett",
+    "Birthdate": "1969-05-14"
+  },
+  {
+    "ActorId": "8",
+    "FirstName": "Liv",
+    "LastName": "Tyler",
+    "Birthdate": "1977-07-01"
+  },
+  {
+    "ActorId": "9",
+    "FirstName": "Ian",
+    "LastName": "Holm",
+    "Birthdate": "1931-09-12"
+  },
+  {
+    "ActorId": "10",
+    "FirstName": "John",
+    "LastName": "Rhys-Davies",
+    "Birthdate": "1944-05-05"
+  },
+  {
+    "ActorId": "11",
+    "FirstName": "N/A",
+    "LastName": "Balrog (100% CGI - Weta Digital)",
+    "Birthdate": "N/A"
+  },
+  {
+    "ActorId": "12",
+    "FirstName": "Hugo",
+    "LastName": "Weaving",
+    "Birthdate": "1960-04-04"
+  },
+  {
+    "ActorId": "13",
+    "FirstName": "Billy",
+    "LastName": "Boyd",
+    "Birthdate": "1968-08-28"
+  },
+  {
+    "ActorId": "14",
+    "FirstName": "Miranda",
+    "LastName": "Otto",
+    "Birthdate": "1967-12-16"
+  },
+  {
+    "ActorId": "15",
+    "FirstName": "Christopher",
+    "LastName": "Lee",
+    "Birthdate": "1922-05-27"
+  },
+  {
+    "ActorId": "16",
+    "FirstName": "Sean",
+    "LastName": "Astin",
+    "Birthdate": "1971-02-25"
+  },
+  {
+    "ActorId": "17",
+    "FirstName": "Sean",
+    "LastName": "Bean",
+    "Birthdate": "1959-04-17"
+  },
+  {
+    "ActorId": "18",
+    "FirstName": "Dominic",
+    "LastName": "Monaghan",
+    "Birthdate": "1976-12-08"
+  },
+  {
+    "ActorId": "19",
+    "FirstName": "Bernard",
+    "LastName": "Hill",
+    "Birthdate": "1944-12-17"
+  },
+  {
+    "ActorId": "20",
+    "FirstName": "David",
+    "LastName": "Wenham",
+    "Birthdate": "1965-09-21"
+  },
+  {
+    "ActorId": "21",
+    "FirstName": "N/A",
+    "LastName": "Shelob (100% CGI - Weta Digital)",
+    "Birthdate": "N/A"
+  },
+  {
+    "ActorId": "22",
+    "FirstName": "Lawrence / Andy",
+    "LastName": "Makoare (physical) / Serkis (voice)",
+    "Birthdate": "1968-03-20"
+  },
+  {
+    "ActorId": "23",
+    "FirstName": "Karl",
+    "LastName": "Urban",
+    "Birthdate": "1972-06-07"
+  },
+  {
+    "ActorId": "24",
+    "FirstName": "Brad",
+    "LastName": "Dourif",
+    "Birthdate": "1950-03-18"
+  },
+  {
+    "ActorId": "25",
+    "FirstName": "John",
+    "LastName": "Rhys-Davies (voice)",
+    "Birthdate": "1944-05-05"
+  },
+  {
+    "ActorId": "26",
+    "FirstName": "Craig",
+    "LastName": "Parker",
+    "Birthdate": "1970-11-12"
+  },
+  {
+    "ActorId": "27",
+    "FirstName": "John",
+    "LastName": "Noble",
+    "Birthdate": "1948-08-20"
+  },
+  {
+    "ActorId": "28",
+    "FirstName": "Marton",
+    "LastName": "Csokas",
+    "Birthdate": "1966-06-30"
+  },
+  {
+    "ActorId": "29",
+    "FirstName": "Stephen",
+    "LastName": "Ure",
+    "Birthdate": "1958-03-28"
+  },
+  {
+    "ActorId": "30",
+    "FirstName": "Nathaniel",
+    "LastName": "Lees",
+    "Birthdate": "1952-07-20"
+  },
+  {
+    "ActorId": "31",
+    "FirstName": "Bruce",
+    "LastName": "Hopkins",
+    "Birthdate": "1965-06-25"
+  },
+  {
+    "ActorId": "32",
+    "FirstName": "N/A",
+    "LastName": "Brego (real horse)",
+    "Birthdate": "N/A"
+  },
+  {
+    "ActorId": "33",
+    "FirstName": "Paris",
+    "LastName": "Howe Strewe",
+    "Birthdate": "1976"
+  }
+]
