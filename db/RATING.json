@@ -1,0 +1,86 @@
+[
+    {
+        "RatingId": "1",
+        "Stars": "5",
+        "Comment": "A timeless masterpiece! The storytelling, world-building, and characters are simply unmatched.",
+        "FilmId": "1",
+        "UserId": "1"
+    },
+    {
+        "RatingId": "2",
+        "Stars": "4",
+        "Comment": "An amazing story with incredible depth, though a bit slow in some parts.",
+        "FilmId": "1",
+        "UserId": "2"
+    },
+    {
+        "RatingId": "3",
+        "Stars": "3",
+        "Comment": "Good story and visuals, but it didn’t fully hold my attention.",
+        "FilmId": "1",
+        "UserId": "3"
+    },
+    {
+        "RatingId": "4",
+        "Stars": "5",
+        "Comment": "An epic journey that never gets old. Every time I watch or read it, I discover something new.",
+        "FilmId": "1",
+        "UserId": "4"
+    },
+    {
+        "RatingId": "5",
+        "Stars": "5",
+        "Comment": "Brilliantly written and beautifully adapted. Tolkien’s world feels alive in every detail.",
+        "FilmId": "2",
+        "UserId": "1"
+    },
+    {
+        "RatingId": "6",
+        "Stars": "4",
+        "Comment": "Beautifully crafted world and strong characters, even if it gets a little long at times.",
+        "FilmId": "2",
+        "UserId": "2"
+    },
+    {
+        "RatingId": "7",
+        "Stars": "3",
+        "Comment": "Some great moments, but overall it felt too slow and heavy for me.",
+        "FilmId": "2",
+        "UserId": "3"
+    },
+    {
+        "RatingId": "8",
+        "Stars": "5",
+        "Comment": "Pure magic from start to finish. The perfect blend of adventure, emotion, and heroism.",
+        "FilmId": "2",
+        "UserId": "4"
+    },
+    {
+        "RatingId": "9",
+        "Stars": "5",
+        "Comment": "A cinematic and literary legend. Few stories capture courage and friendship like this one.",
+        "FilmId": "3",
+        "UserId": "1"
+    },
+    {
+        "RatingId": "10",
+        "Stars": "4",
+        "Comment": "Fantastic adventure and visuals, but a few scenes felt unnecessarily drawn out.",
+        "FilmId": "3",
+        "UserId": "2"
+    },
+    {
+        "RatingId": "11",
+        "Stars": "3",
+        "Comment": "Enjoyable at times, but it didn’t live up to all the hype for me.",
+        "FilmId": "3",
+        "UserId": "3"
+    },
+    {
+        "RatingId": "12",
+        "Stars": "5",
+        "Comment": "Absolutely breathtaking! The landscapes, music, and story make it an unforgettable experience.",
+        "FilmId": "3",
+        "UserId": "4"
+    }
+]
