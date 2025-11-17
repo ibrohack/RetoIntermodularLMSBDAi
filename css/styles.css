@@ -2,231 +2,495 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #D4AF37;
+  --gap: 1rem;
   --color-background-light: #F5F5DC;
   --color-background-dark: #2E4636;
+  --card: #2E4636;
+  --color-primary: #D4AF37;
+  --muted: #666;
+  --max-width: 1100px;
+  --padding: 1rem;
+  font-family: system-ui, -apple-system, Cinzel, Lato, Arial;
   --font-display: 'Cinzel', serif;
   --font-sans: 'Lato', sans-serif;
   --radius-default: 0.25rem;
   --radius-lg: 0.5rem;
   --radius-xl: 0.75rem;
   --radius-full: 9999px;
+
+  --nav-hover-bg-mobile: #D4AF37;
+  --nav-hover-bg-desktop: #D4AF37;
+  --nav-hover-color: #ffffff;
+  --focus-ring: 3px solid #D4AF37;
+
+
 }
 
-/* Modo oscuro */
-html.dark body {
-  background-color: var(--color-background-dark);
-  color: #F5F5DC;
+/* Base */
+* {
+  box-sizing: border-box
 }
 
 body {
+  margin: 0;
+  background: var(--color-background-dark);
+  color: var(--color-primary);
+  line-height: 1.45;
   font-family: var(--font-sans);
-  background-color: var(--color-background-light);
+  /* background-color: var(--color-background-light); */
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
+/* Skip link */
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transform: translateY(-150%);
+  transition: transform .18s ease;
+  z-index: 1000;
 }
 
-/* Layout */
-.layout-container {
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 3px solid #D4AF37;
+}
+
+/* Site container */
+.site {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100vh;
+  gap: var(--gap);
+  padding: var(--padding);
+  align-items: center;
+}
+
+/* Constrain children width */
+.site>* {
+  width: 100%;
+  max-width: var(--max-width);
 }
 
 /* Header */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 2.5rem;
-  background-color: rgba(46, 70, 54, 0.8);
-  backdrop-filter: blur(4px);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.5);
-  color: white;
-}
-
-header h2 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-
-nav a {
-  color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: var(--color-primary);
-}
-
-/* Main */
-main {
-  flex: 1;
-}
-
-.hero {
-  position: relative;
-  height: calc(100vh - 64px);
+.site__header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
-  color: white;
+  gap: 0.25rem;
+  align-items: flex-start;
+  background: var(--color-background-light);
+  padding: var(--padding);
+  border-radius: 8px;
 }
 
-.hero-background {
-  position: absolute;
-  inset: 0;
-  background-image: linear-gradient(rgba(46, 70, 54, 0.5), rgba(46, 70, 54, 0.8)), url("images/middle_earth_map.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.hero h1 {
-  font-size: 3rem;
+.logo {
+  margin: 0;
+  color: var(--color-primary);
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-weight: bold;
-  letter-spacing: 0.1em;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  unicode-bidi: isolate;
 }
 
-.hero p {
-  font-size: 1.125rem;
-  color: #e7e7e7;
-  line-height: 1.6;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+.tagline {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem
 }
 
-/* Botón */
-button.explore {
+/* Menu wrapper */
+.site__menu {
   display: flex;
+  background: transparent;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
   align-items: center;
-  justify-content: center;
-  height: 3rem;
-  padding: 0 2rem;
-  background-color: var(--color-primary);
-  color: var(--color-background-dark);
-  font-size: 1.125rem;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  border-radius: var(--radius-lg);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  transition: background-color 0.3s;
-  max-width: 480px;
-  min-width: 84px;
-  overflow: hidden;
+  gap: 0.75rem;
 }
 
-button.explore:hover {
-  background-color: #facc15;
+/* Toggle button */
+.menu-toggle {
+  background: transparent;
+  border: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger */
+.hamburger {
+  display: inline-block;
+  width: 22px;
+  height: 2px;
+  background: var(--color-primary);
+  position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 2px;
+  background: var(--color-primary);
+}
+
+.hamburger::before {
+  top: -7px
+}
+
+.hamburger::after {
+  top: 7px
+}
+
+/* Menu list */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+  overflow: visible;
+  max-height: 0;
+  opacity: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: var(--color-primary);
+  /* background: var(--color-background-dark); */
+  border-radius: 6px;
+}
+
+/* Expanded state */
+.menu.expanded {
+  max-height: 480px;
+  opacity: 1;
+}
+
+/* Dropdown parent */
+.menu-item.dropdown {
+  position: relative;
+}
+
+/* Dropdown toggle (looks like a link/button) */
+.dropdown-toggle {
+  background: var(--color-background-dark);
+  border: 0;
+  color: var(--color-primary);
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font: inherit;
+  border-radius: 6px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Submenu: hidden by default (mobile stacking) */
+.dropdown-menu {
+  list-style: none;
+  display: block;
+  background: var(--color-background-light);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(20, 30, 60, 0.08);
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.22s ease, opacity 0.18s ease;
+  opacity: 0;
+  /* box-shadow:none;  subtle on mobile */
+}
+
+/* Show submenu when parent has .open */
+.menu-item.dropdown.open>.dropdown-menu {
+  max-height: 480px;
+  opacity: 1;
+}
+
+/* Submenu links */
+.dropdown-menu a {
+  display: block;
+  padding: 0.45rem 0.5rem;
+  text-decoration: none;
+  color: var(--color-primary);
+  border-radius: 6px;
+}
+
+.menu a,
+.dropdown-toggle,
+.dropdown-menu a {
+  transition: background-color 0.18s ease, color 0.12s ease, transform 0.08s ease;
+  outline: none;
+}
+
+/* MOBILE (default): stacked links have filled backgrounds — hover uses card-tint */
+.menu a:hover,
+.menu a:active,
+.menu a:focus,
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:active,
+.dropdown-menu a:focus {
+  background: var(--nav-hover-bg-mobile);
+  color: var(--nav-hover-color);
+  transform: translateY(-1px);
+}
+
+/* Make tap area obvious on touch: keep :active behavior */
+.menu a:active,
+.dropdown-toggle:active,
+.dropdown-menu a:active {
+  transform: translateY(0);
+  filter: brightness(0.98);
+}
+
+/* Focus accessibility: visible ring and no outline duplication */
+.menu a:focus,
+.dropdown-toggle:focus,
+.dropdown-menu a:focus {
+  box-shadow: none;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 0 0 6px rgba(255, 213, 79, 0.12);
+}
+
+
+/* Desktop: make dropdown absolute positioned under parent button */
+@media (min-width:480px) {
+  .menu {
+    align-items: left;
+  }
+
+  .menu-item.dropdown {
+    position: relative;
+  }
+
+  .dropdown-toggle {
+    width: auto;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    background: transparent;
+
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 6px);
+    min-width: 160px;
+    max-width: 320px;
+    margin: 0;
+    padding: 0.5rem;
+    display: block;
+    max-height: 0;
+    opacity: 0;
+    z-index: 40;
+
+  }
+
+  .menu-item.dropdown.open>.dropdown-menu {
+    max-height: 800px;
+    opacity: 1;
+  }
+
+  .dropdown-menu a {
+    /* padding: 0.5rem; */
+    background: transparent;
+
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.5rem 0.6rem;
+
+  }
+
+  .menu-item.dropdown .dropdown-menu {
+    min-width: max-content;
+    /* makes the submenu at least as wide as its content */
+  }
+
+}
+
+/* DESKTOP overrides: inline links are transparent by default — different hover */
+@media (min-width:480px) {
+
+  .menu a,
+  .dropdown-menu a,
+  .dropdown-toggle {
+    background: transparent;
+    color: var(--color-primary);
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* Hover for inline style: subtle background and stronger text color */
+  .menu a:hover,
+  .menu a:focus,
+  .menu a:active {
+    background: var(--nav-hover-bg-desktop);
+    color: var(--nav-hover-color);
+    border-radius: 6px;
+    transform: translateY(-1px);
+  }
+
+  /* Dropdown toggle inline hover */
+  .dropdown-toggle:hover,
+  .dropdown-toggle:focus,
+  .dropdown-toggle:active {
+    background: var(--nav-hover-bg-desktop);
+    color: var(--nav-hover-color);
+    transform: translateY(-1px);
+  }
+
+  /* Dropdown menu items (stacked vertically) hover */
+  .dropdown-menu a:hover,
+  .dropdown-menu a:focus,
+  .dropdown-menu a:active {
+    background: var(--nav-hover-bg-desktop);
+    color: var(--nav-hover-color);
+    border-radius: 6px;
+  }
+
+  /* Desktop focus ring (clear visual) */
+  .menu a:focus,
+  .dropdown-toggle:focus,
+  .dropdown-menu a:focus {
+    box-shadow: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 0 6px rgba(11, 103, 208, 0.12);
+  }
+}
+
+/* Prevent hover styles from causing layout shift on touch-only devices */
+@media (hover: none) {
+
+  .menu a:hover,
+  .dropdown-toggle:hover,
+  .dropdown-menu a:hover {
+    transform: none;
+  }
+}
+
+
+
+/* Content area */
+.site__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  background: var(--card);
+  padding: var(--padding);
+  border-radius: 8px;
+  flex: 1 1 auto;
+}
+
+/* Card */
+.card {
+  background: var(--color-background-light);
+  border: 1px solid var(--color-primary);
+  padding: 1rem;
+  border-radius: 6px;
 }
 
 /* Footer */
-footer {
-  background-color: var(--color-background-dark);
-  padding: 2.5rem 1.25rem;
+.site__footer {
+  background: var(--color-background-light);
+  padding: 0.75rem;
+  border-radius: 8px;
+  color: var(--color-primary);
+  font-style: italic;
+  font-weight: 700;
   text-align: center;
-  color: var(--color-background-light);
 }
 
-footer a {
-  color: var(--color-background-light);
-  transition: color 0.3s;
+/* Three-column variant */
+.three-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
 }
 
-footer a:hover {
-  color: var(--color-primary);
+.col {
+  background: var(--color-background-dark);
+  border: 1px solid var(--color-primary);
+  padding: 0.85rem;
+  border-radius: 6px;
 }
 
-footer svg,
-footer .material-symbols-outlined {
-  font-size: 2rem;
-  width: 2rem;
-  height: 2rem;
-}
-
-/* Pseudoclases */
-nav a:hover,
-footer a:hover {
-  color: var(--color-primary);
-}
-
-button.explore:hover {
-  background-color: #facc15;
-}
-
-/* Responsive: md:flex para navegación */
-@media (min-width: 768px) {
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 2rem;
+/* Larger screens: horizontal header, show menu inline, hide toggle, three columns row */
+@media (min-width:480px) {
+  .site__header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
   }
 
-  .hero h1 {
-    font-size: 4.5rem;
+  .menu-toggle {
+    display: none
   }
 
-  .hero p {
-    font-size: 1.25rem;
-  }
-}
-
-/* Responsive: md:hidden para botón de menú */
-@media (min-width: 768px) {
-  button.menu-toggle {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  nav {
-    display: none;
+  .menu {
+    flex-direction: row;
+    gap: 0.75rem;
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+    width: auto;
   }
 
-  button.menu-toggle {
-    display: block;
-    color: white;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
+  .menu a {
+    background: transparent;
+    padding: 0.25rem 0.5;
+    border-radius: 6px
+  }
+
+  .three-col {
+    flex-direction: row
+  }
+
+  .three-col .col {
+    flex: 1 1 0;
+    min-width: 0
   }
 }
 
-/* Utilidades convertidas de Tailwind */
-.text-shadow-lg {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+/* Extra spacing on wide screens */
+@media (min-width:1000px) {
+  .site {
+    padding: 1.5rem
+  }
+
+  .site__content {
+    padding: 1.5rem
+  }
+
+  .menu {
+    gap: 1rem
+  }
 }
 
-.text-shadow-md {
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.max-w-3xl {
-  max-width: 768px;
+article#welcome.card {
+  background: url("../images/middle_earth_map.jpg");
+  border: 1px solid var(--color-primary);
+  padding: 0;
+  border-radius: 6px;
+  ;
 }
